@@ -36,8 +36,8 @@
         </section>
         <section id="contact">
             <h2>Contactez-nous</h2>
-            <p>Email: dark_priv9967@discord.com</p>
-            <p>Téléphone: 06 37 33 11 67</p>
+            <p>Email: contact@urssaf.fr</p>
+            <p>Téléphone: 01 23 45 67 89</p>
         </section>
         <section id="about">
             <h2>À propos de l'URSSAF</h2>
@@ -45,7 +45,29 @@
         </section>
         <section id="declaration">
             <h2>Déclarez votre entreprise</h2>
-            <button onclick="window.location.href='https://forms.gle/iwcrZXcXxzL2qmXo8'">Déclarez votre entreprise ici</button>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="company-name">Nom de l'entreprise:</label>
+                    <input type="text" id="company-name" name="company-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company-type">Type d'entreprise:</label>
+                    <input type="text" id="company-type" name="company-type" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Adresse:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Numéro de téléphone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Soumettre</button>
+            </form>
         </section>
     </main>
     <footer>
