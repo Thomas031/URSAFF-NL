@@ -58,43 +58,12 @@ footer {
     bottom: 0;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.form-group input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #003366;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    align-self: flex-start;
-}
-
-button:hover {
-    background-color: #0055a5;
-}
-
 #declaration {
-    max-width: 600px;
+    max-width: 640px;
     margin: auto;
+}
+
+iframe {
+    width: 100%;
+    border: none;
 }
